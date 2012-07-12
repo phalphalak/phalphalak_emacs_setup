@@ -45,8 +45,17 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 ;;(setq standard-indent 2)
+;;(setq soft-tab-size 2)
 (setq tab-stop-list '(2 4 6 8 12 14 16 18))
 ;;(setq tabbar-background-color "black")
 
 (setq highlight-tabs t)
 (setq highlight-trailing-whitespace t)
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+
+(global-set-key [C-down] 'enlarge-window)
+(global-set-key [C-up] 'shrink-window)
+(global-set-key [C-right] 'enlarge-window-horizontally)
+(global-set-key [C-left] 'shrink-window-horizontally)
