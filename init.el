@@ -6,6 +6,9 @@
 (require 'paredit)
 (require 'clojure-mode)
 (require 'highlight-parentheses)
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/addons/auto-complete/ac-dict")
+(ac-config-default)
 
 (autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
 ;;       (add-to-list 'auto-mode-alist '("\\.clj$" . clojure-mode))
