@@ -2,5 +2,5 @@
 	path = addons/clojure-mode
 	url = git://github.com/technomancy/clojure-mode.git
 [submodule "addons/auto-complete"]
-	path = addons/auto-complete
+	path = install/auto-complete
 	url = http://cx4a.org/repo/auto-complete.git
