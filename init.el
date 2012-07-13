@@ -57,3 +57,15 @@
 
 (global-set-key [left] (lambda () (interactive) (scroll-right tab-width t)))
 (global-set-key [right] (lambda () (interactive) (scroll-left tab-width t)))
+
+
+;; scroll one line at a time (less "jumpy" than defaults)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+(setq scroll-step 1) ;; keyboard scroll one line at a time
+
+(global-set-key [C-down] 'enlarge-window)
+(global-set-key [C-up] 'shrink-window)
+(global-set-key [C-right] 'enlarge-window-horizontally)
+(global-set-key [C-left] 'shrink-window-horizontally)
