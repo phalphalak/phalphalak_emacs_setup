@@ -3,3 +3,4 @@
 #wget "http://download.savannah.gnu.org/releases/color-theme/color-theme-6.6.0.tar.gz"
 #tar -xzf color-theme-6.6.0.tar.gz
 #rm color-theme-6.6.0.tar.gz
+#wget "http://www.emacswiki.org/emacs/smooth-scroll.el" -O addons/smooth-scroll/smooth-scroll.el

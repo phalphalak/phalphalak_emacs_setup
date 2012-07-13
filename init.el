@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/addons/paredit")
 (add-to-list 'load-path "~/.emacs.d/addons/highlight-parentheses")
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/addons/smooth-scroll")
 ;;(add-to-list 'load-path "~/.emacs.d/addons/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d/addons/emacs-color-theme-solarized")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
@@ -50,3 +51,9 @@
 
 (setq highlight-tabs t)
 (setq highlight-trailing-whitespace t)
+
+(global-set-key [up] (lambda () (interactive) (scroll-down 1)))
+(global-set-key [down] (lambda () (interactive) (scroll-up 1)))
+
+(global-set-key [left] (lambda () (interactive) (scroll-right tab-width t)))
+(global-set-key [right] (lambda () (interactive) (scroll-left tab-width t)))
