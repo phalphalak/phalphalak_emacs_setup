@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/addons/paredit")
 (add-to-list 'load-path "~/.emacs.d/addons/highlight-parentheses")
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/addons/smooth-scroll")
 ;;(add-to-list 'load-path "~/.emacs.d/addons/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d/addons/emacs-color-theme-solarized")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
@@ -54,6 +55,18 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+(global-set-key [up] (lambda () (interactive) (scroll-down 1)))
+(global-set-key [down] (lambda () (interactive) (scroll-up 1)))
+
+(global-set-key [left] (lambda () (interactive) (scroll-right tab-width t)))
+(global-set-key [right] (lambda () (interactive) (scroll-left tab-width t)))
+
+
+;; scroll one line at a time (less "jumpy" than defaults)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+(setq scroll-step 1) ;; keyboard scroll one line at a time
 
 (global-set-key [C-down] 'enlarge-window)
 (global-set-key [C-up] 'shrink-window)
