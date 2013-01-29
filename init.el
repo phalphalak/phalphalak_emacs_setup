@@ -1,3 +1,7 @@
+(setq backup-directory-alist `((".*" . ,"~/emacs-temp")))
+(setq auto-save-file-name-transforms `((".*" ,"~/emacs-temp" t)))
+
+(add-to-list 'load-path "~/.emacs.d/addons/nrepl")
 (add-to-list 'load-path "~/.emacs.d/addons/clojure-mode")
 (add-to-list 'load-path "~/.emacs.d/addons/paredit")
 (add-to-list 'load-path "~/.emacs.d/addons/highlight-parentheses")
@@ -15,6 +19,7 @@
 (load-theme 'solarized-dark t)
 ;;(color-theme-gnome2)
 
+(require 'nrepl)
 (require 'paredit)
 (require 'clojure-mode)
 (require 'highlight-parentheses)
@@ -23,6 +28,7 @@
 (ac-config-default)
 
 (autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
+(require 'clojure-test-mode)
 ;;       (add-to-list 'auto-mode-alist '("\\.clj$" . clojure-mode))
 
 (setq inhibit-startup-message t) ;; No splash screen
@@ -69,3 +75,43 @@
 (global-set-key [C-up] 'shrink-window)
 (global-set-key [C-right] 'enlarge-window-horizontally)
 (global-set-key [C-left] 'shrink-window-horizontally)
+
+;;(set-scroll-bar-mode 'right)
+
+(defun move-line (n)
+  "Move the current line up or down by N lines."
+  (interactive "p")
+  (setq col (current-column))
+  (beginning-of-line) (setq start (point))
+  (end-of-line) (forward-char) (setq end (point))
+  (let ((line-text (delete-and-extract-region start end)))
+    (forward-line n)
+    (insert line-text)
+    ;; restore point to original column in moved line
+    (forward-line -1)
+    (forward-char col)))
+
+(defun move-line-up (n)
+  "Move the current line up by N lines."
+  (interactive "p")
+  (move-line (if (null n) -1 (- n))))
+
+(defun move-line-down (n)
+  "Move the current line down by N lines."
+  (interactive "p")
+  (move-line (if (null n) 1 n)))
+
+(global-set-key (kbd "M-<up>") 'move-line-up)
+(global-set-key (kbd "M-<down>") 'move-line-down)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(js-indent-level 2))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
