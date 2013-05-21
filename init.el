@@ -7,6 +7,7 @@
 (add-to-list 'load-path "~/.emacs.d/addons/highlight-parentheses")
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
 (add-to-list 'load-path "~/.emacs.d/addons/smooth-scroll")
+(add-to-list 'load-path "~/.emacs.d/addons/org-7.9.3d")
 ;;(add-to-list 'load-path "~/.emacs.d/addons/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d/addons/emacs-color-theme-solarized")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
@@ -43,6 +44,7 @@
 (add-hook 'slime-repl-mode-hook 'turn-on-paredit)
 (add-hook 'clojure-mode-hook (lambda () (highlight-parentheses-mode +1)))
 (add-hook 'slime-repl-mode-hook (lambda () (highlight-parentheses-mode +1)))
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (global-linum-mode t) ;;show line numbers
 
