@@ -114,10 +114,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-<<<<<<< HEAD
  '(css-indent-offset 2)
-=======
->>>>>>> 6e6b1db83a30f6c45bf8529d63b2c85b24a899e9
  '(js-indent-level 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
