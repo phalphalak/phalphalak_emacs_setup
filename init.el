@@ -28,6 +28,9 @@
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/addons/auto-complete/ac-dict")
 (ac-config-default)
 
+(require 'ido)
+(ido-mode t)
+
 (autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
 (require 'clojure-test-mode)
 ;;       (add-to-list 'auto-mode-alist '("\\.clj$" . clojure-mode))
@@ -69,6 +72,9 @@
 (global-set-key [left] (lambda () (interactive) (scroll-right tab-width t)))
 (global-set-key [right] (lambda () (interactive) (scroll-left tab-width t)))
 
+
+(when (fboundp 'windmove-default-keybindings)
+      (windmove-default-keybindings))
 
 ;; scroll one line at a time (less "jumpy" than defaults)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
@@ -115,6 +121,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(css-indent-offset 2)
+ '(ido-enable-flex-matching t)
  '(js-indent-level 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -122,3 +129,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
