@@ -1,7 +1,8 @@
 (setq backup-directory-alist `((".*" . ,"~/emacs-temp")))
 (setq auto-save-file-name-transforms `((".*" ,"~/emacs-temp" t)))
 
-(tool-bar-mode -1)
+(if window-system
+    (tool-bar-mode -1))
 
 (add-to-list 'load-path "~/.emacs.d/addons/clojure-mode")
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
@@ -10,6 +11,8 @@
 ;;(add-to-list 'load-path "~/.emacs.d/addons/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d/addons/emacs-color-theme-solarized")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
+
+;; ---------------------------------------------------------------------------------
 ;;(require 'color-theme)
 ;;(eval-after-load "color-theme"
 ;;  '(progn
@@ -18,6 +21,18 @@
 
 (load-theme 'solarized-dark t)
 ;;(color-theme-gnome2)
+
+;; ---------------------------------------------------------------------------------
+;; nyan-mode
+(if window-system
+    (progn
+      (add-to-list 'load-path "~/.emacs.d/addons/nyan-mode")
+      (require 'nyan-mode)))
+
+;; ---------------------------------------------------------------------------------
+;; magit
+(add-to-list 'load-path "~/.emacs.d/addons/magit")
+(require 'magit)
 
 ;; ---------------------------------------------------------------------------------
 ;; nrepl
@@ -45,6 +60,12 @@
 
 (require 'ido)
 (ido-mode t)
+;(setq ido-enable-prefix nil
+;      ido-enable-flex-matching t
+;      ido-create-new-buffer 'always
+;      ido-use-filename-at-point 'guess
+;      ido-max-prospects 10
+;      ido-default-file-method 'selected-window)
 
 (autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
 (require 'clojure-test-mode)
@@ -57,8 +78,12 @@
 ;;(require 'slime)
 
 ;; require or autoload paredit-mode
+
 (defun turn-on-paredit () (paredit-mode 1))
-(add-hook 'clojure-mode-hook 'turn-on-paredit)
+(add-hook 'clojure-mode-hook
+          (lambda ()
+            (setq mode-require-final-newline t)
+            (paredit-mode 1)))
 (add-hook 'slime-repl-mode-hook 'turn-on-paredit)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -136,12 +161,27 @@
  '(css-indent-offset 2)
  '(ido-enable-flex-matching t)
  '(js-indent-level 2))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+;; Teach compile the syntax of the kibit output
+(require 'compile)
+(add-to-list 'compilation-error-regexp-alist-alist
+         '(kibit "At \\([^:]+\\):\\([[:digit:]]+\\):" 1 2 nil 0))
+(add-to-list 'compilation-error-regexp-alist 'kibit)
+
+;; A convenient command to run "lein kibit" in the project to which
+;; the current emacs buffer belongs to.
+(defun kibit ()
+  "Run kibit on the current project.
+Display the results in a hyperlinked *compilation* buffer."
+  (interactive)
+  (compile "lein kibit"))
+
+(defun kibit-current-file ()
+  "Run kibit on the current file.
+Display the results in a hyperlinked *compilation* buffer."
+  (interactive)
+  (compile (concat "lein kibit " buffer-file-name)))
+
 
 
 
@@ -214,3 +254,10 @@
    )))
 
 ;(add-hook 'clojure-mode-hook 'clojure-unicode)
+(if (not window-system)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "gray00" :foreground "gray00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))))
