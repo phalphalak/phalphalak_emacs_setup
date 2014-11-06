@@ -4,13 +4,30 @@
 (if window-system
     (tool-bar-mode -1))
 
-(add-to-list 'load-path "~/.emacs.d/addons/clojure-mode")
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://stable.melpa.org/packages/"))
+(package-initialize)
+
+(unless (package-installed-p 'clojure-mode)
+  (package-refresh-contents)
+  (package-install 'clojure-mode))
+
+(unless (package-installed-p 'cider)
+  (package-install 'cider))
+
+(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+;(setq cider-repl-pop-to-buffer-on-connect nil)
+(setq cider-repl-result-prefix ";; => ")
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
+
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
 (add-to-list 'load-path "~/.emacs.d/addons/smooth-scroll")
 (add-to-list 'load-path "~/.emacs.d/addons/org-7.9.3d")
 ;;(add-to-list 'load-path "~/.emacs.d/addons/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d/addons/emacs-color-theme-solarized")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 ;; ---------------------------------------------------------------------------------
 ;;(require 'color-theme)
@@ -34,10 +51,6 @@
 (add-to-list 'load-path "~/.emacs.d/addons/magit")
 (require 'magit)
 
-;; ---------------------------------------------------------------------------------
-;; nrepl
-(add-to-list 'load-path "~/.emacs.d/addons/nrepl")
-(require 'nrepl)
 ;; ---------------------------------------------------------------------------------
 ;; highlieght parenthesis
 ;(add-to-list 'load-path "~/.emacs.d/addons/highlight-parentheses")
@@ -68,7 +81,7 @@
 ;      ido-default-file-method 'selected-window)
 
 (autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
-(require 'clojure-test-mode)
+;(require 'clojure-test-mode)
 ;;       (add-to-list 'auto-mode-alist '("\\.clj$" . clojure-mode))
 
 (setq inhibit-startup-message t) ;; No splash screen
