@@ -1,0 +1,642 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/roman/.emacs.d/elpa/" . "cider-0.14.0/")
+ ("/Users/roman/.emacs.d/" . "elpa/")
+ ("/Users/roman/.lein/" . "self-installs/")
+ ("/Users/roman/git/basatan/resources/dev-migrations/" . "web-db/")
+ ("/Users/roman/git/basatan/src/basatan/system/" . "engine/")
+ ("/Users/roman/git/basatan/src/basatan/ring/" . "middlewares/")
+ ("/Users/roman/git/basatan/src-dev/" . "dev/")
+ ("/Users/roman/git/basatan/resources/sql/" . "query/")
+ ("/Users/roman/git/basatan/src/basatan/db/" . "query/")
+ ("/Users/roman/git/wiki/posts/" . "howto/")
+ ("/Users/roman/git/wiki/" . "posts/")
+ ("/Users/roman/git/basatan/test/basatan/" . "integration/")
+ ("/Users/roman/git/basatan/test/" . "basatan/")
+ ("/Users/roman/git/basatan/src/basatan/" . "data/")
+ ("/Users/roman/git/basatan/src/" . "basatan/")
+ ("/Users/roman/git/basatan/resources/" . "dev-migrations/")
+ ("/Users/roman/git/basatan/" . "test/")
+ ("/Users/roman/git/specification/" . "data-model/")
+ ("/Users/roman/git/ogrom/ogrom.protocols/src/ogrom/" . "protocols/")
+ ("/Users/roman/git/ogrom/ogrom.protocols/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom/ogrom.protocols/" . "src/")
+ ("/Users/roman/git/vintage/" . "resources/")
+ ("/Users/roman/git/sfweb/app/views/javascripts/" . "mobile/")
+ ("/Users/roman/git/sfweb/app/views/layouts/" . "mobile/")
+ ("/Users/roman/git/presser/resources/public/js/" . "compiled/")
+ ("/Users/roman/git/presser/resources/public/" . "css/")
+ ("/Users/roman/git/presser/resources/" . "public/")
+ ("/Users/roman/git/presser/src/presser/" . "server/")
+ ("/Users/roman/git/presser/src/" . "presser/")
+ ("/Users/roman/git/presser/" . "src/")
+ ("/Users/roman/git/b2b/lib/" . "maintenance/")
+ ("/Users/roman/git/b2b/public/" . "stylesheets/")
+ ("/Users/roman/git/b2b/db/" . "migrate/")
+ ("/Users/roman/git/b2b/app/views/" . "daily_statistics/")
+ ("/Users/roman/git/b2b/app/" . "controllers/")
+ ("/Users/roman/git/b2b/" . "app/")
+ ("/Users/roman/git/inquisition.poc/resources/" . "sql/")
+ ("/Users/roman/git/inquisition.poc/src/inquisition/" . "poc/")
+ ("/Users/roman/git/inquisition.poc/src/" . "inquisition/")
+ ("/Users/roman/git/inquisition.poc/" . "resources/")
+ ("/Users/roman/git/inquisition/test/inquisition/" . "dsl/")
+ ("/Users/roman/git/inquisition/src/inquisition/" . "dsl/")
+ ("/Users/roman/git/inquisition/test/" . "inquisition/")
+ ("/Users/roman/git/sfweb/app/views/shared/module_toolkit/" . "modules/")
+ ("/Users/roman/git/sfweb/app/views/shared/" . "module_toolkit/")
+ ("/Users/roman/git/sfweb/app/views/products/" . "list/")
+ ("/Users/roman/git/sfweb/app/views/outfits/" . "list/")
+ ("/Users/roman/git/sfweb/public/assets/" . "javascripts/")
+ ("/Users/roman/git/sfweb/public/" . "assets/")
+ ("/Users/roman/git/inquisition/src/" . "inquisition/")
+ ("/Users/roman/git/inquisition/" . "src/")
+ ("/Users/roman/git/suq.frontend/external-js/" . "components/")
+ ("/Users/roman/git/suq.frontend/resources/reagent/" . "templates/")
+ ("/Users/roman/git/suq.frontend/resources/sass/" . "components/")
+ ("/Users/roman/git/suq.frontend/markup/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/markup/" . "suq/")
+ ("/Users/roman/git/foo/" . "botify/")
+ ("/Users/roman/git/suq.frontend/maintenance/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/maintenance/" . "suq/")
+ ("/Users/roman/git/suq.frontend/dev/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/dev/" . "suq/")
+ ("/Users/roman/git/reagent-html/test/" . "reagent_html/")
+ ("/Users/roman/git/suq.screening/resources/public/" . "css/")
+ ("/Users/roman/git/suq.screening/resources/" . "public/")
+ ("/Users/roman/git/suq.screening/src/clj/suq/shared/" . "ring/")
+ ("/Users/roman/git/suq.screening/src/cljs/suq/shared/" . "state/")
+ ("/Users/roman/git/suq.screening/src/cljs/suq/admin/" . "state/")
+ ("/Users/roman/git/suq.screening/src/cljs/suq/" . "admin/")
+ ("/Users/roman/git/suq.screening/src/cljs/" . "suq/")
+ ("/Users/roman/git/suq.screening/src/clj/suq/screening/" . "ring/")
+ ("/Users/roman/git/suq.screening/src/clj/suq/admin/" . "ring/")
+ ("/Users/roman/git/suq.screening/src/clj/suq/" . "admin/")
+ ("/Users/roman/git/suq.screening/src/clj/" . "suq/")
+ ("/Users/roman/git/suq/resources/sql/" . "migrations/")
+ ("/Users/roman/git/suq/resources/" . "sql/")
+ ("/Users/roman/git/suq.screening/src/" . "clj/")
+ ("/Users/roman/git/suq.screening/" . "src/")
+ ("/Users/roman/git/suq/src/suq/" . "db/")
+ ("/Users/roman/git/suq/src/" . "suq/")
+ ("/Users/roman/git/suq/test/suq/" . "test/")
+ ("/Users/roman/git/suq/test/" . "suq/")
+ ("/Users/roman/git/suq/" . "src/")
+ ("/Users/roman/git/ogrom-protocols/src/ogrom/protocols/v1/" . "suq/")
+ ("/Users/roman/git/ogrom-sources/src/ogrom/sources/loaders/" . "suq/")
+ ("/Users/roman/git/suq.frontend/test/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/" . "state/")
+ ("/Users/roman/git/suq.frontend/src/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/src/common/suq/frontend/common/" . "state/")
+ ("/Users/roman/git/suq.markup/sass/" . "components/")
+ ("/Users/roman/git/reagent-html/src/" . "reagent_html/")
+ ("/Users/roman/git/reagent-html/" . "src/")
+ ("/Users/roman/git/suq.frontend/resources/public/assets/" . "js/")
+ ("/Users/roman/git/suq.frontend/src/client/suq/frontend/" . "client/")
+ ("/Users/roman/git/suq.frontend/src/client/suq/" . "frontend/")
+ ("/Users/roman/git/suq.markup/reagent/" . "templates/")
+ ("/Users/roman/git/suq.markup/templates/" . "partials/")
+ ("/Users/roman/git/suq.markup/js/" . "components/")
+ ("/Users/roman/git/suq.markup/" . "reagent/")
+ ("/Users/roman/git/suq.frontend/src/common/suq/frontend/" . "common/")
+ ("/Users/roman/git/suq.frontend/src/common/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/src/server/suq/frontend/" . "server/")
+ ("/Users/roman/git/suq.frontend/src/server/suq/" . "frontend/")
+ ("/Users/roman/git/suq.frontend/src/client/frontend/" . "client/")
+ ("/Users/roman/git/suq.frontend/test/frontend/test/" . "common/")
+ ("/Users/roman/git/suq.frontend/test/frontend/" . "test/")
+ ("/Users/roman/git/suq.frontend/src/common/frontend/" . "common/")
+ ("/Users/roman/git/suq.frontend/src/server/frontend/" . "server/")
+ ("/Users/roman/git/suq.frontend/src/dev/bazaar/" . "dev/")
+ ("/Users/roman/git/suq.frontend/src/dev/" . "bazaar/")
+ ("/Users/roman/git/suq.frontend/test/bazaar/test/" . "common/")
+ ("/Users/roman/git/suq.frontend/test/bazaar/" . "test/")
+ ("/Users/roman/git/suq.frontend/test/" . "suq/")
+ ("/Users/roman/git/suq.frontend/src/common/bazaar/" . "common/")
+ ("/Users/roman/git/suq.frontend/src/common/" . "suq/")
+ ("/Users/roman/git/suq.frontend/resources/public/" . "assets/")
+ ("/Users/roman/git/suq.frontend/resources/" . "templates/")
+ ("/Users/roman/git/suq.frontend/src/client/bazaar/" . "client/")
+ ("/Users/roman/git/suq.frontend/src/client/" . "suq/")
+ ("/Users/roman/git/suq.frontend/src/server/bazaar/" . "server/")
+ ("/Users/roman/git/suq.frontend/src/server/" . "suq/")
+ ("/Users/roman/git/suq.frontend/src/" . "suq/")
+ ("/Users/roman/git/suq.frontend/" . "src/")
+ ("/Users/roman/git/bazaar/src/dev/bazaar/" . "dev/")
+ ("/Users/roman/git/bazaar/src/dev/" . "bazaar/")
+ ("/Users/roman/git/bazaar/src/common/bazaar/" . "common/")
+ ("/Users/roman/git/bazaar/src/common/" . "bazaar/")
+ ("/Users/roman/git/bazaar/src/client/bazaar/" . "client/")
+ ("/Users/roman/git/bazaar/src/client/" . "bazaar/")
+ ("/Users/roman/git/bazaar/src/server/bazaar/" . "server/")
+ ("/Users/roman/git/bazaar/src/server/" . "bazaar/")
+ ("/Users/roman/git/bazaar/src/" . "client/")
+ ("/Users/roman/git/bazaar/" . "src/")
+ ("/Users/roman/git/demo/src-client/" . "demo/")
+ ("/Users/roman/git/demo/src/" . "site/")
+ ("/Users/roman/git/demo/src-server/" . "demo/")
+ ("/Users/roman/git/demo/" . "src/")
+ ("/Users/roman/git/iso2/src/shared/" . "iso2/")
+ ("/Users/roman/git/iso2/src/cljc/" . "iso2/")
+ ("/Users/roman/git/iso2/src/client/" . "iso2/")
+ ("/Users/roman/git/iso2/src/cljs/" . "iso2/")
+ ("/Users/roman/git/iso2/src/node/" . "iso2/")
+ ("/Users/roman/git/iso2/src/clj/" . "iso2/")
+ ("/Users/roman/git/iso2/src/" . "shared/")
+ ("/Users/roman/git/iso2/" . "src/")
+ ("/Users/roman/git/iso/resources/public/" . "js/")
+ ("/Users/roman/git/iso/resources/" . "public/")
+ ("/Users/roman/git/iso/src/cljs/" . "iso/")
+ ("/Users/roman/git/iso/src/clj/" . "iso/")
+ ("/Users/roman/git/iso/src/" . "cljs/")
+ ("/Users/roman/git/iso/" . "src/")
+ ("/Users/roman/git/abecadlo/frontend/src/abecadlo/components/" . "notification_filters/")
+ ("/Users/roman/git/ogrom-mysql/test/ogrom/mysql/" . "query/")
+ ("/Users/roman/git/ogrom-mysql/test/ogrom/" . "mysql/")
+ ("/Users/roman/git/ogrom-mysql/test/" . "ogrom/")
+ ("/Users/roman/git/ogrom-amqp/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom-amqp/" . "src/")
+ ("/Users/roman/git/etc-generator/src/etc/" . "generator/")
+ ("/Users/roman/git/etc-generator/src/" . "etc/")
+ ("/Users/roman/git/etc-generator/" . "src/")
+ ("/Users/roman/git/aufi-upload/src/" . "aufi_upload/")
+ ("/Users/roman/git/aufi-upload/" . "src/")
+ ("/Users/roman/git/elastic-copy/src/" . "elastic_copy/")
+ ("/Users/roman/git/elastic-copy/" . "src/")
+ ("/Users/roman/git/karma/resources/sql/" . "buckets/")
+ ("/Users/roman/git/karma/src/karma/buckets/" . "scoring/")
+ ("/Users/roman/git/karma/resources/" . "sql/")
+ ("/Users/roman/git/karma/test/" . "karma/")
+ ("/Users/roman/git/karma/src/karma/" . "buckets/")
+ ("/Users/roman/git/karma/src/" . "karma/")
+ ("/Users/roman/git/karma/" . "doc/")
+ ("/Users/roman/git/abecadlo/backend/resources/sql/" . "v2/")
+ ("/Users/roman/git/abecadlo/backend/resources/" . "sql/")
+ ("/Users/roman/git/cljs-sandbox/resources/public/" . "css/")
+ ("/Users/roman/git/cljs-sandbox/resources/" . "public/")
+ ("/Users/roman/git/calendar-view/src/common/" . "calendar_view/")
+ ("/Users/roman/git/cljs-sandbox/src/" . "cljs_sandbox/")
+ ("/Users/roman/git/cljs-sandbox/" . "src/")
+ ("/Users/roman/git/calendar-view/src/calendar_view/" . "dev/")
+ ("/Users/roman/git/calendar-view/src/" . "common/")
+ ("/Users/roman/git/calendar-view/resources/public/" . "css/")
+ ("/Users/roman/git/calendar-view/resources/" . "public/")
+ ("/Users/roman/git/calendar-view/" . "src/")
+ ("/Users/roman/git/datepicker/resources/public/" . "css/")
+ ("/Users/roman/git/datepicker/resources/" . "public/")
+ ("/Users/roman/git/datepicker/src/" . "datepicker/")
+ ("/Users/roman/git/datepicker/" . "src/")
+ ("/Users/roman/git/kubin/src/" . "kubin/")
+ ("/Users/roman/git/kubin/" . "src/")
+ ("/Users/roman/git/hamena.collages/src/cljc/hamena/" . "collages/")
+ ("/Users/roman/git/hamena.collages/src/cljc/" . "hamena/")
+ ("/Users/roman/git/hamena.collages/src/cljx/hamena/" . "collages/")
+ ("/Users/roman/git/hamena.collages/src/cljx/" . "hamena/")
+ ("/Users/roman/git/lasertag/env/dev/cljs/" . "lasertag/")
+ ("/Users/roman/git/lasertag/env/dev/" . "cljs/")
+ ("/Users/roman/git/lasertag/env/" . "dev/")
+ ("/Users/roman/git/ogrom-sources/src/ogrom/sources/v1/" . "product_source/")
+ ("/Users/roman/git/avenue/resources/sql/" . "bi/")
+ ("/Users/roman/git/avenue/resources/" . "sql/")
+ ("/Users/roman/git/ogrom-run/src/ogrom/run/" . "v1/")
+ ("/Users/roman/git/hamena.collages/resources/public/" . "css/")
+ ("/Users/roman/git/hamena.collages/resources/" . "public/")
+ ("/Users/roman/git/hamena.collages/src/cljs/hamena/" . "collages/")
+ ("/Users/roman/git/hamena.collages/src/cljs/" . "hamena/")
+ ("/Users/roman/git/hamena.collages/src/clj/hamena/collages/" . "components/")
+ ("/Users/roman/git/hamena.collages/test/" . "hamena/")
+ ("/Users/roman/git/hamena.collages/src/clj/hamena/" . "collages/")
+ ("/Users/roman/git/hamena.collages/src/clj/" . "hamena/")
+ ("/Users/roman/git/hamena.collages/src/" . "cljs/")
+ ("/Users/roman/git/hamena.collages/" . "resources/")
+ ("/Users/roman/git/hamena.students/src-cljs/hamena/" . "students/")
+ ("/Users/roman/git/hamena.students/src-cljs/" . "hamena/")
+ ("/Users/roman/git/hamena.students/resources/" . "public/")
+ ("/Users/roman/git/hamena.students/src/hamena/" . "students/")
+ ("/Users/roman/git/hamena.students/src/" . "hamena/")
+ ("/Users/roman/git/hamena.students/" . "src-cljs/")
+ ("/Users/roman/git/mockup/resources/public/" . "css/")
+ ("/Users/roman/git/mockup/resources/" . "public/")
+ ("/Users/roman/git/mockup/src/" . "mockup/")
+ ("/Users/roman/git/mockup/" . "resources/")
+ ("/Users/roman/git/abecadlo/backend/src/abecadlo/backend/ring/" . "notifications/")
+ ("/Users/roman/git/parsepn/src/" . "parsepn/")
+ ("/Users/roman/git/parsepn/" . "src/")
+ ("/Users/roman/git/avenue/test/avenue/db/" . "bi/")
+ ("/Users/roman/git/avenue/test/avenue/" . "db/")
+ ("/Users/roman/git/avenue/test/" . "avenue/")
+ ("/Users/roman/git/avenue/src/avenue/db/" . "bi/")
+ ("/Users/roman/git/avenue/src/avenue/" . "db/")
+ ("/Users/roman/git/avenue/src/" . "avenue/")
+ ("/Users/roman/git/avenue/" . "src/")
+ ("/Users/roman/git/test/src/" . "test/")
+ ("/Users/roman/git/test/" . "src/")
+ ("/Users/roman/git/abecadlo/backend/src/abecadlo/backend/" . "system/")
+ ("/Users/roman/git/abecadlo/backend/src/abecadlo/" . "backend/")
+ ("/Users/roman/git/abecadlo/backend/src/" . "abecadlo/")
+ ("/Users/roman/git/abecadlo/backend/" . "src/")
+ ("/Users/roman/git/fruehstuecksfleisch/src/fruehstuecksfleisch/" . "system/")
+ ("/Users/roman/git/fruehstuecksfleisch/src/" . "fruehstuecksfleisch/")
+ ("/Users/roman/git/fruehstuecksfleisch/" . "src/")
+ ("/Users/roman/git/cljock/src/" . "cljock/")
+ ("/Users/roman/git/cljock/resources/public/" . "css/")
+ ("/Users/roman/git/cljock/resources/" . "public/")
+ ("/Users/roman/git/cljock/" . "src/")
+ ("/Users/roman/git/abecadlo/frontend/src/abecadlo/" . "components/")
+ ("/Users/roman/git/abecadlo/frontend/resources/public/" . "css/")
+ ("/Users/roman/git/abecadlo/frontend/resources/" . "public/")
+ ("/Users/roman/git/abecadlo/frontend/src/" . "abecadlo/")
+ ("/Users/roman/git/abecadlo/frontend/" . "src/")
+ ("/Users/roman/git/time-picker/resources/public/" . "css/")
+ ("/Users/roman/git/time-picker/resources/" . "public/")
+ ("/Users/roman/git/time-picker/src/" . "time_picker/")
+ ("/Users/roman/git/time-picker/" . "resources/")
+ ("/Users/roman/git/tradecraft/test/" . "tradecraft/")
+ ("/Users/roman/git/tradecraft/resources/" . "sql/")
+ ("/Users/roman/git/tradecraft/src/" . "tradecraft/")
+ ("/Users/roman/git/tradecraft/" . "src/")
+ ("/Users/roman/git/ogrom/src/ogrom/v1/people/" . "followers/")
+ ("/Users/roman/git/sf_plus/src/assets/stylesheets/" . "shared/")
+ ("/Users/roman/git/sf_business_logic2/" . "lib/")
+ ("/Users/roman/git/sfweb/test/" . "fixtures/")
+ ("/Users/roman/git/lasertag/resources/public/" . "css/")
+ ("/Users/roman/git/lasertag/src/cljs/" . "lasertag/")
+ ("/Users/roman/git/lasertag/resources/" . "public/")
+ ("/Users/roman/git/lasertag/src/clj/" . "lasertag/")
+ ("/Users/roman/git/lasertag/src/" . "clj/")
+ ("/Users/roman/git/lasertag/" . "src/")
+ ("/Users/roman/git/ogrom/src/ogrom/v1/questions/" . "comments/")
+ ("/Users/roman/git/sfweb/db/" . "migrate/")
+ ("/Users/roman/git/ogrom/test/ogrom/" . "middlewares/")
+ ("/Users/roman/git/ogrom/test/" . "ogrom/")
+ ("/Users/roman/git/sf_business_logic2/lib/sf/business_logic/" . "solr/")
+ ("/Users/roman/git/sf_business_logic2/lib/sf/" . "data_structures/")
+ ("/Users/roman/git/sf_business_logic2/lib/" . "sf/")
+ ("/Users/roman/git/ogrom/src/ogrom/v1/collage/" . "tags/")
+ ("/Users/roman/git/ogrom-mysql/resources/sql/" . "v1/")
+ ("/Users/roman/git/ogrom-mysql/resources/" . "sql/")
+ ("/Users/roman/git/splutter/src/" . "splutter/")
+ ("/Users/roman/git/splutter/" . "src/")
+ ("/Users/roman/git/abecadlo/" . "backend/")
+ ("/Users/roman/git/bender/src/bender/v1/sources/" . "dynamodb/")
+ ("/Users/roman/git/bender/src/bender/v1/" . "sources/")
+ ("/Users/roman/git/bender/src/bender/" . "v1/")
+ ("/Users/roman/git/bender/src/" . "bender/")
+ ("/Users/roman/git/bender/" . "src/")
+ ("/Users/roman/git/sf_plus/config/locales-csv/" . "sfweb-tech/")
+ ("/Users/roman/git/sf_plus/config/" . "locales-csv/")
+ ("/Users/roman/git/testcraft/src/" . "testcraft/")
+ ("/Users/roman/git/testcraft/" . "src/")
+ ("/Users/roman/git/heteronomy/src/cljs/heteronomy/" . "components/")
+ ("/Users/roman/git/heteronomy/resources/public/" . "css/")
+ ("/Users/roman/git/heteronomy/resources/" . "public/")
+ ("/Users/roman/git/envoy/resources/" . "product-link-rewriting-rules/")
+ ("/Users/roman/git/envoy/src/" . "envoy/")
+ ("/Users/roman/git/envoy/" . "resources/")
+ ("/Users/" . "roman/")
+ ("/Users/roman/git/heteronomy/src/cljx/" . "heteronomy/")
+ ("/Users/roman/git/heteronomy/" . "src/")
+ ("/Users/roman/git/heteronomy/src/cljs/" . "heteronomy/")
+ ("/Users/roman/git/heteronomy/src/" . "cljs/")
+ ("/Users/roman/git/ogrom-sources/test/ogrom/sources/" . "v1/")
+ ("/Users/roman/git/ogrom-sources/test/ogrom/" . "sources/")
+ ("/Users/roman/git/ogrom-sources/test/" . "ogrom/")
+ ("/Users/roman/git/ogrom-run/src/ogrom/" . "run/")
+ ("/Users/roman/git/ogrom-run/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom-mysql/src/ogrom/mysql/" . "query/")
+ ("/Users/roman/git/ogrom-mysql/src/ogrom/" . "mysql/")
+ ("/Users/roman/git/ogrom-mysql/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom-mysql/" . "src/")
+ ("/Users/roman/git/sfweb/app/views/" . "javascripts/")
+ ("/Users/roman/git/sfweb/app/" . "views/")
+ ("/Users/roman/git/sf_business_logic/lib/sf/business_logic/" . "sequel/")
+ ("/Users/roman/git/sf_business_logic/lib/sf/" . "business_logic/")
+ ("/Users/roman/git/sf_business_logic/lib/" . "sf/")
+ ("/Users/roman/git/sf_business_logic/" . "lib/")
+ ("/Users/roman/git/sfweb/" . "test/")
+ ("/Users/roman/git/elastyczny/test/elastyczny/" . "query/")
+ ("/Users/roman/git/elastyczny/test/" . "elastyczny/")
+ ("/Users/roman/git/ogrom/src/ogrom/v1/" . "questions/")
+ ("/Users/roman/git/ogrom/src/ogrom/" . "v1/")
+ ("/Users/roman/git/ogrom/src/" . "ogrom/")
+ ("/Users/roman/git/sf_plus/src/assets/javascripts/" . "shared/")
+ ("/Users/roman/git/sf_plus/src/assets/" . "javascripts/")
+ ("/Users/roman/git/elastyczny/src/elastyczny/" . "query/")
+ ("/Users/roman/git/ogrom-run/test/ogrom/" . "run/")
+ ("/Users/roman/git/ogrom-run/test/" . "ogrom/")
+ ("/Users/roman/git/ogrom-run/" . "test/")
+ ("/Users/roman/git/ogrom-protocols/test/ogrom/protocols/" . "v1/")
+ ("/Users/roman/git/ogrom-protocols/test/ogrom/" . "protocols/")
+ ("/Users/roman/git/ogrom-protocols/test/" . "ogrom/")
+ ("/Users/roman/git/ogrom-protocols/target/" . "classes/")
+ ("/Users/roman/git/ogrom/" . "ogrom.protocols/")
+ ("/Users/roman/git/ogrom-protocols/src/ogrom/protocols/" . "v1/")
+ ("/Users/roman/git/ogrom-protocols/src/ogrom/" . "protocols/")
+ ("/Users/roman/git/ogrom-protocols/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom-protocols/" . "test/")
+ ("/Users/roman/git/ogrom-sources/src/ogrom/sources/" . "v1/")
+ ("/Users/roman/git/ogrom-sources/src/ogrom/" . "sources/")
+ ("/Users/roman/git/ogrom-sources/src/" . "ogrom/")
+ ("/Users/roman/git/ogrom-sources/" . "test/")
+ ("/Users/roman/git/elastyczny/src/" . "elastyczny/")
+ ("/Users/roman/git/elastyczny/" . "resources/")
+ ("/Users/roman/git/sf_plus/test/sf_plus/test/repo/" . "api/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/views/mobile/" . "shared/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/widgets/" . "mobile/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/handlers/" . "mobile/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/repo/" . "api/")
+ ("/Users/roman/git/quo-vadis/test/" . "quo_vadis/")
+ ("/Users/roman/git/quo-vadis/src/" . "quo_vadis/")
+ ("/Users/roman/git/quo-vadis/" . "src/")
+ ("/Users/roman/git/sf_plus/test/sf_plus/test/views/" . "shared/")
+ ("/Users/roman/git/sf_plus/test/sf_plus/test/" . "helpers/")
+ ("/Users/roman/git/sf_plus/test/sf_plus/" . "test/")
+ ("/Users/roman/git/sf_plus/test/" . "sf_plus/")
+ ("/Users/roman/git/sf_plus/resources/templates/" . "layouts/")
+ ("/Users/roman/git/sf_plus/resources/" . "templates/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/views/" . "mobile/")
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/" . "handlers/")
+ ("/Users/roman/git/sf_plus/src/clj/" . "sf_plus/")
+ ("/Users/roman/git/sf_plus/src/" . "clj/")
+ ("/Users/roman/git/sf-config/src/" . "sf_config/")
+ ("/Users/roman/git/sf-config/" . "config/")
+ ("/Users/roman/git/sf_plus/" . "resources/")
+ ("/Users/roman/git/" . "basatan/")
+ ("/Users/roman/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/roman/.emacs.d/"
+ "/Users/roman/git/basatan/test/basatan/integration/"
+ "/Users/roman/.lein/"
+ "/Users/roman/.emacs.d/elpa/cider-0.14.0/"
+ "/Users/roman/git/basatan/src/basatan/data/"
+ "/Users/roman/git/basatan/"
+ "/Users/roman/git/basatan/resources/dev-migrations/web-db/"
+ "/Users/roman/git/basatan/resources/graphql/"
+ "/Users/roman/git/basatan/resources/sql/"
+ "/Users/roman/git/basatan/src/basatan/db/"
+ "/Users/roman/git/basatan/test/basatan/test/"
+ "/Users/roman/git/basatan/resources/mysql-migrations/"
+ "/Users/roman/git/basatan/test/basatan/"
+ "/Users/roman/git/basatan/src/basatan/db/query/"
+ "/Users/roman/git/basatan/resources/migrations/"
+ "/Users/roman/git/basatan/src/basatan/system/engine/"
+ "/Users/roman/git/basatan/test/basatan/db/"
+ "/Users/roman/git/basatan/src/basatan/system/"
+ "/Users/roman/git/basatan/src/basatan/ring/middlewares/"
+ "/Users/roman/git/basatan/src/basatan/ring/"
+ "/Users/roman/git/basatan/src/basatan/"
+ "/Users/roman/git/basatan/src-dev/"
+ "/Users/roman/git/sfweb/test/fixtures/"
+ "/Users/roman/git/sfweb/db/migrate/"
+ "/Users/roman/git/sfweb/config/"
+ "/Users/roman/git/sfweb/"
+ "/Users/roman/git/basatan/resources/sql/query/"
+ "/Users/roman/git/wiki/posts/howto/"
+ "/Users/roman/git/basatan/test/basatan/data/"
+ "/Users/roman/git/basatan/test/basatan/resources/"
+ "/Users/roman/git/basatan/resources/sql2/"
+ "/Users/roman/git/suq.frontend/src/suq/frontend/"
+ "/Users/roman/git/suq.frontend/src/suq/"
+ "/Users/roman/git/suq.frontend/src/suq/frontend/state/"
+ "/Users/roman/git/suq.frontend/resources/"
+ "/Users/roman/git/suq.frontend/resources/templates/"
+ "/Users/roman/git/suq.frontend/resources/sass/components/"
+ "/Users/roman/git/suq.frontend/src/suq/markup/"
+ "/Users/roman/git/suq.frontend/src/mustache/"
+ "/Users/roman/git/sf_plus/"
+ "/Users/roman/git/suq.frontend/"
+ "/Users/roman/git/sf_plus/resources/"
+ "/Users/roman/git/sf_plus/src/clj/sf_plus/handlers/"
+ "/Users/roman/git/suq.frontend/src/suq/frontend/server/"
+ "/Users/roman/git/suq.frontend/src/suq/frontend/client/"
+ "/Users/roman/git/specification/data-model/"
+ "/Users/roman/git/suq.frontend/maintenance/suq/frontend/"
+ "/Users/roman/git/vintage/resources/"
+ "/Users/roman/git/suq.frontend/src/suq/frontend/ring/"
+ "/Users/roman/git/sfweb/app/views/javascripts/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "create_offer_comment_test.clj"
+ "profiles.clj"
+ "cider.el"
+ "collages.clj"
+ "shop_products.clj"
+ "project.clj"
+ "transform.clj"
+ "shop_product_brand.clj"
+ "product_brand.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/roman/.emacs.d/" (22741 6922 0 0) "tramp" "themes/" "setup.sh" "install/" "init.el" "ido.last" "elpa/" "auto-save-list/" "addons/" "ac-comphist.dat" "README" "../" "./")
+
+ ("/Users/roman/" (22741 7054 0 0) "tmp/" "pw.txt" "newsletter_stats/" "interior_products.zip" "interior_products.csv" "git/" "emacs-temp/" "elasticsearch-1.4.0/" "dotfiles-macos/" "VirtualBox VMs/" "Things/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "D/" "Applications/" ".viminfo" ".vim/" ".v8flags.4.6.85.31.roman.json" ".thumbnails/" ".subversion/" ".ssh/" ".rvm/" ".psql_history" ".pgpass" ".npm/" ".node_repl_history" ".node-gyp/" ".mysql_history" ".m2/" ".lesshst" ".lein/" ".irb-history" ".gnupg/" ".gitignore_global" ".gitignore/" ".gitconfig" ".git-contrib/" ".gem/" ".emacs.d/" ".docker/" ".cups/" ".config/" ".bundle/" ".boot2docker/" ".boot/" ".bashrc" ".bash_profile" ".bash_history" ".Trash/" ".DS_Store" ".CFUserTextEncoding" "#!Users!roman!git!suq.screening!src!cljs!suq!shared!state!product.cljs#" "#!Users!roman!git!suq.markup!Makefile#" "#!Users!roman!git!suq.frontend!src!common!frontend!common!config.cljs#" "#!Users!roman!git!suq.frontend!i18n.csv#" "#!Users!roman!git!sf_plus!src!clj!sf_plus!views!collage!overview.clj#" "#!Users!roman!git!sf_plus!src!clj!sf_plus!repo!api!collage.clj#" "#!Users!roman!git!ogrom-sources!src!ogrom!sources!v1!enriching.clj#" "#!Users!roman!git!ogrom-sources!src!ogrom!sources!loaders!question.clj#" "#!Users!roman!git!ogrom-protocols!src!ogrom!protocols!v1!collage_tag.clj#" "#!Users!roman!git!ogrom-mysql!src!ogrom!mysql!query!collage.clj#" "#!Users!roman!git!ogrom!src!ogrom!v1!collage.clj#" "#!Users!roman!git!basatan!test!basatan!test!fixtures.clj#" "#!Users!roman!git!basatan!test!basatan!integration!sale_test.clj#" "#!Users!roman!git!basatan!test!basatan!integration!offer_comments_test.clj#" "#!Users!roman!git!basatan!test!basatan!integration!create_offer_comment_test.clj#" "#!Users!roman!git!basatan!src!basatan!ring!middlewares!revision.clj#" "#!Users!roman!git!basatan!src!basatan!ring!middlewares!authentication.clj#" "#!Users!roman!git!basatan!src!basatan!db!requests.clj#" "#!Users!roman!git!basatan!src!basatan!db!offers.clj#" "#!Users!roman!git!basatan!src!basatan!db!comments.clj#" "#!Users!roman!git!basatan!src!basatan!data!util.clj#" "#!Users!roman!git!basatan!src!basatan!data!page.clj#" "#!Users!roman!git!basatan!src!basatan!data!offer_comments.clj#" "#!Users!roman!git!basatan!src!basatan!data!offer_comment.clj#" "#!Users!roman!git!basatan!src!basatan!data!offer.clj#" "#!Users!roman!git!basatan!src!basatan!data!collages.clj#" "#!Users!roman!git!basatan!resources!sql!comments.sql#" "#!Users!roman!git!basatan!resources!migrations!001-setup.up.sql#" "#!Users!roman!git!basatan!resources!graphql!ProductDimensions.gql#" "#!Users!roman!git!basatan!resources!graphql!Person.gql#" "#!Users!roman!git!basatan!resources!graphql!Offer.gql#" "#!Users!roman!git!abecadlo!frontend!src!abecadlo!state!notifications.cljs#" "#!Users!roman!git!abecadlo!frontend!src!abecadlo!state!details.cljs#" "#!Users!roman!git!abecadlo!frontend!src!abecadlo!date_time.cljs#" "#!Applications!Emacs.app!Contents!Resources!lisp!emacs-lisp!package.el.gz#" "../" "./")
+
+ ("/Users/" (21816 45582 0 0) "roman/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/roman/.emacs.d/elpa/cider-0.14.0/" (22739 62927 0 0) "nrepl-dict.elc" "nrepl-dict.el" "nrepl-client.elc" "nrepl-client.el" "cider.elc" "cider.el" "cider-util.elc" "cider-util.el" "cider-test.elc" "cider-test.el" "cider-stacktrace.elc" "cider-stacktrace.el" "cider-selector.elc" "cider-selector.el" "cider-scratch.elc" "cider-scratch.el" "cider-resolve.elc" "cider-resolve.el" "cider-repl.elc" "cider-repl.el" "cider-popup.elc" "cider-popup.el" "cider-pkg.el" "cider-overlays.elc" "cider-overlays.el" "cider-mode.elc" "cider-mode.el" "cider-macroexpansion.elc" "cider-macroexpansion.el" "cider-interaction.elc" "cider-interaction.el" "cider-inspector.elc" "cider-inspector.el" "cider-grimoire.elc" "cider-grimoire.el" "cider-eldoc.elc" "cider-eldoc.el" "cider-doc.elc" "cider-doc.el" "cider-debug.elc" "cider-debug.el" "cider-compat.elc" "cider-compat.el" "cider-common.elc" "cider-common.el" "cider-client.elc" "cider-client.el" "cider-classpath.elc" "cider-classpath.el" "cider-browse-ns.elc" "cider-browse-ns.el" "cider-autoloads.el" "cider-apropos.elc" "cider-apropos.el" "../" "./")
+
+ ("/Users/roman/.emacs.d/elpa/" (22739 62913 0 0) "spinner-1.7.3.signed" "spinner-1.7.3/" "seq-2.19.signed" "seq-2.19/" "queue-0.1.1.signed" "queue-0.1.1/" "pkg-info-0.5/" "gnupg/" "epl-0.7/" "dash-2.10.0/" "clojure-mode-5.6.1/" "clojure-mode-4.0.1/" "cider-0.14.0/" "archives/" "../" "./")
+
+ ("/Users/roman/.emacs.d/addons/" (21831 19944 0 0) "smooth-scroll/" "rainbow-delimiters/" "paredit/" "org-7.9.3d/" "nyan-mode/" "magit/" "highlight-parentheses/" "color-theme-6.6.0/" "auto-complete/" "../" "./")
+
+ ("/Users/roman/git/basatan/" (22741 5610 0 0) "test/" "target/" "src-dev/" "src/" "resources/" "project.clj" "local-config.edn" "README.md" "Dockerfile" ".lein-repl-history" ".lein-failures" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/roman/.lein/self-installs/" (20895 23484 0 0) "leiningen-2.1.3-standalone.jar" "../" "./")
+
+ ("/Users/roman/.lein/" (22739 63172 0 0) "self-installs/" "repl-history" "profiles.clj.bak2" "profiles.clj.bak" "profiles.clj" "credentials.clj.gpg" ".git/" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/integration/" (22739 62586 0 0) "wishlist_test.clj" "void_offer_test.clj" "shop_products.clj" "reviews_test.clj" "request_seller_buyer_ack_test.clj" "request_messages_test.clj" "rating_test.clj" "property_tree_test.clj" "person_test.clj" "person_offers_test.clj" "person_messages_test.clj" "person_conversation_test.clj" "offers_test.clj" "offers_filters_test.clj" "offer_test.clj" "offer_my_request_test.clj" "offer_facets_test.clj" "offer_comments_test.clj" "my_requests_test.clj" "my_conversations_test.clj" "messages_read_at_test.clj" "has_offers_nearby_test.clj" "deep_query_test.clj" "create_review_test.clj" "create_request_test.clj" "create_offer_test.clj" "create_offer_comment_test.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/" (22739 57514 0 0) "test.clj" "test/" "system/" "ring/" "integration/" "elastic/" "db/" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/data/" (22739 62586 0 0) "wishlist_entry.clj" "wishlist_entries.clj" "validate.clj" "transform.clj" "shop_products.clj" "shop_product_brand.clj" "shop_product.clj" "reviews.clj" "review.clj" "request.clj" "rating.clj" "property_tree.clj" "product_size.clj" "product_condition.clj" "product_colour.clj" "product_category.clj" "product_brand.clj" "person.clj" "page.clj" "offers.clj" "offer_facets.clj" "offer_comments.clj" "offer_comment.clj" "offer.clj" "notifications.clj" "notification.clj" "message.clj" "location.clj" "image.clj" "etc.clj" "conversations.clj" "conversation_messages.clj" "conversation.clj" "collages.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/" (22738 42271 0 0) "system/" "ring.clj" "ring/" "elastic/" "db/" "data/" "core.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/" (22737 20079 0 0) "sql/" "migrations/" "logback.xml" "graphql/" "dev-sql/" "dev-migrations/" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/db/" (22737 18555 0 0) "sizes.clj" "shop_products.clj" "reviews.clj" "requests.clj" "ratings.clj" "query.clj" "query/" "people.clj" "offers.clj" "notifications.clj" "messages.clj" "conversations.clj" "conditions.clj" "common.clj" "comments.clj" "colours.clj" "collages.clj" "categories.clj" "brands.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/sql/" (22737 18577 0 0) "sizes.sql" "shop_products.sql" "shop_collages.sql" "reviews.sql" "requests.sql" "ratings.sql" "query/" "people.sql" "offers.sql" "notifications.sql" "messages.sql" "conversations.sql" "conditions.sql" "comments.sql" "colours.sql" "categories.sql" "brands.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/graphql/" (22735 61919 0 0) "ShopProductBrand.gql" "ShopProduct.gql" "SchemaRoot.gql" "Scalars.gql" "Review.gql" "QueryRoot.gql" "PropertyTree.gql" "ProductDimensions.gql" "Person.gql" "Pagination.gql" "OfferRequest.gql" "OfferComment.gql" "Offer.gql" "Notification.gql" "MutationRoot.gql" "Location.gql" "Facet.gql" "Conversation.gql" "Collage.gql" "AdminExtensions.gql" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/dev-migrations/web-db/" (22731 62055 0 0) "001-setup.up.sql" "001-setup.down.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/dev-migrations/" (22731 62053 0 0) "web-db/" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/sql/query/" (22731 62053 0 0) "union.sql" "snippets.sql" "paginated.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/src-dev/" (22731 62053 0 0) "migrations.clj" "migrations/" "dev.clj" "dev/" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/ring/" (22731 62053 0 0) "middlewares/" "health.clj" "graphql.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/ring/middlewares/" (22729 10321 0 0) "uuid.clj" "revision.clj" "prometheus.clj" "logging.clj" "cors.clj" "authentication.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/system/" (22731 62053 0 0) "prometheus.clj" "ogrom.clj" "httpd.clj" "graphql.clj" "etc_publisher.clj" "engine.clj" "engine/" "elastic.clj" "db.clj" "db/" "consumers/" "config.clj" "codec.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/db/" (22731 62053 0 0) "test_queries.sql" "sizes_test.clj" "reviews_test.clj" "requests_test.clj" "ratings_test.clj" "people_test.clj" "offers_test.clj" "fixtures_timestamp_test.clj" "conversations_test.clj" "conditions_test.clj" "comments_test.clj" "colours_test.clj" "categories_test.clj" "brands_test.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/system/engine/" (22731 62053 0 0) "web_db.clj" "metrics.clj" "etc.clj" "authentication.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/migrations/" (22731 62053 0 0) "brands.csv" "004-indices.up.sql" "004-indices.down.sql" "003-de-offer-dimensions.up.sql" "003-de-offer-dimensions.down.sql" "002-views.up.sql" "002-views.down.sql" "001-setup.up.sql" "001-setup.down.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/src/basatan/db/query/" (22731 62053 0 0) "union.clj" "types.clj" "snippets.clj" "schema.clj" "paginated.clj" "order.clj" "cursor.clj" "columns.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/test/" (22731 62053 0 0) "system.clj" "predicates.clj" "ogrom_dummy.clj" "fixtures.clj" "db.clj" "datasources.clj" "config.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/mysql-migrations/" (22731 64540 0 0) "001-setup.up.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/src-dev/dev/" (22700 22970 0 0) "config.clj" "../" "./")
+
+ ("/Users/roman/git/sfweb/test/fixtures/" (22278 12845 0 0) "zip/" "zanox_products.yml" "zalando_products.yml" "views.yml" "verifiable_tokens.yml" "vendors.yml" "vendor_product_filters.yml" "vendor_feeds.yml" "users.yml" "trends.yml" "tradedoubler_products.yml" "tags.yml" "stylefruits_products.yml" "star_outfits.yml" "star_outfit_medias.yml" "spam_alerts.yml" "solr/" "sold_out_indexer/" "shops.yml" "shop_logos.yml" "shop_coupons.yml" "seo_texts.yml" "sales_datas.yml" "roles.yml" "reports.yml" "questions.yml" "question_categories.yml" "products.yml" "product_versions.yml" "product_showcases.yml" "product_redirect_criteria.yml" "product_qualities.yml" "product_categories.yml" "price_ranges.yml" "preferences.yml" "popularity_components.yml" "popularity_awards.yml" "people.yml" "outfit_medias.yml" "outfit_categories.yml" "ootd_schedule_items.yml" "newsletter_subscriptions.yml" "news.yml" "medias.yml" "materials.yml" "manufacturers.yml" "ip_entries.yml" "injection_links.yml" "images/" "feedback_categories.yml" "feed_encodings.yml" "esprit_products.yml" "email_verifications.yml" "deletions.yml" "currencies.yml" "csv/" "cron_logs.yml" "content_modules.yml" "content_module_references.yml" "content_module_image_uploads.yml" "compressions.yml" "colours.yml" "collages.yml" "collage_items.yml" "client_ids.yml" "certificate_icons.yml" "category_images.yml" "brands.yml" "baur_products.yml" "authorizations.yml" "articles.yml" "article_medias.yml" "article_elements.yml" "article_element_medias.yml" "article_categories.yml" "answers.yml" "affilinet_products.yml" "../" "./")
+
+ ("/Users/roman/git/sfweb/test/" (22278 12845 0 0) "unit/" "test_helper.rb" "solr_integration/" "performance/" "functional/" "fixtures/" "factories/" "../" "./")
+
+ ("/Users/roman/git/sfweb/db/migrate/" (22443 15599 0 0) "20160809095830_add_fashion_plus_collage_media.rb" "20150909114742_create_follows_table.rb" "20150904110815_update_product_screening_index.rb" "20150807112219_unique_tagging_index.rb" "20150724145901_unique_tag_seo_names.rb" "20150323093449_add_image_reference_to_person.rb" "20141216124220_unique_brand_logos.rb" "20141105162322_add_partner_page.rb" "20141024094352_add_section_to_cms_page.rb" "20140918101028_add_parent_id_to_category_image.rb" "20140918095147_add_subtitle_to_product_tags_and_add_tag_image.rb" "20140917101641_create_question_category_medium.rb" "20140827124319_add_text_to_links.rb" "20140808145431_add_classification_to_question.rb" "20140617122718_add_random_mode_to_product_tag_category.rb" "20140221170002_add_men_collage_media.rb" "20140217162907_add_via_mobile_to_question_and_answers.rb" "20131210103904_add_timestamps_to_emails.rb" "20131106161911_add_link_hiding_to_preferences.rb" "20131006102506_add_pluralization_of_seoname_to_outfit_category.rb" "20130912113501_add_email_form_switch_to_cms_page.rb" "20130909085500_make_homefeed_items_utf8.rb" "20130908143203_add_optimizly_switches.rb" "20130902140307_add_homefeed_items.rb" "20130827144508_add_background_image_category_id_to_background_image.rb" "20130827142959_add_background_image_cateogies.rb" "20130716130029_add_material_id_to_seo_texts.rb" "20130705121734_add_singular_name_to_outfit_categories.rb" "20130410135850_copy_outfit_ids_to_collage_ids.rb" "20130402154000_add_custom_outfit_designer_name_for_heimtextilien.rb" "20130328200321_rename_outfit_id_to_collage_id_in_contest_rankings.rb" "20130328191217_rename_outfit_id_to_collage_id_in_star_outfits.rb" "20130328183429_rename_outfit_id_in_contests.rb" "20130328093015_change_is_interior_column_in_popularity_award_to_awardable_type_cache.rb" "20130328092057_add_outfit_designer_name_to_product_categories.rb" "20130326075516_add_seoname_and_values_to_material.rb" "20130322081647_rename_outfit_id_to_collage_id_for_ootd_schedule_items.rb" "20130319130120_add_interior_room_categories.rb" "20130318135053_add_submission_type_to_contests.rb" "20130318083525_add_pringe_ranges_for_rooms.rb" "20130314154514_rename_entry_types_in_board_entries.rb" "20130308121118_add_tress_for_interior.rb" "20130305150656_add_product_screening_index.rb" "20130228135000_add_dummy_category_images_for_interiors.rb" "20130228130123_add_dummy_interior_product_categories.rb" "20130228075835_convert_outfits_to_collages_on_awards.rb" "20130227230411_add_interior_outfit_categories_tree.rb" "20130227134820_change_default_type_of_products_to_fashion_products.rb" "20130222103707_add_tree_id_to_product_categories.rb" "20130221105944_add_background_image_id_to_collages.rb" "20130221093937_create_background_images.rb" "20130220124219_convert_outfits_to_callages_on_views.rb" "20130220071011_convert_outfits_to_callages_on_ratings.rb" "20130220070908_convert_outfits_to_callages_on_comments.rb" "20130219160602_add_index_for_material_id_to_products.rb" "20130219154310_add_material_id_to_products.rb" "20130219151738_create_materials.rb" "20130219111912_add_type_index_to_products.rb" "20130219104703_add_type_index_to_outfits.rb" "20130218102047_add_flip_to_outfit_items.rb" "20130215134107_add_type_to_product.rb" "20130215102529_add_flag_to_popularity_awards.rb" "20130214151725_add_room_media.rb" "20130211131320_rename_outfit_items.rb" "20130207163231_rename_outifts.rb" "20130206122949_add_tree_id_to_outfit_categories.rb" "20130122143003_remove_board_entries_without_entries.rb" "20130109174207_add_rrp_price_to_affiliate_window_products.rb" "20130108081831_add_indexes_to_board_and_board_entry.rb" "20121228191237_add_board_id_to_board_entry_deletions.rb" "20121222172337_add_filename_and_description_to_board.rb" "20121128093358_create_board_entry_deletions.rb" "20121127142448_create_board_entry.rb" "20121127142356_create_board.rb" "20121120132711_remove_cms_page_for_quartett.rb" "20121112134409_add_cms_page_for_quartett.rb" "20121106130203_create_campaign_shops.rb" "20121029135754_add_skip_rows_to_vendor.rb" "20121029124358_create_technical_ids_for_categories.rb" "20121026134929_create_linkshare_products.rb" "20121026112843_create_campaign_item.rb" "20121026112710_create_campaigns.rb" "20121026102235_drop_landing_page_campaigns.rb" "20121023160115_remove_description_from_questions.rb" "20121023160026_remove_answer_from_answer.rb" "20121023155832_drop_answers_outfits.rb" "20121023155753_drop_answers_products.rb" "20121023155727_drop_outfits_questions.rb" "20121023155619_drop_products_questions.rb" "20121017152512_add_shop_id_index_to_products.rb" "20121016124210_create_landing_page_campaign_brands.rb" "20121016123808_create_landing_page_campaign_shops.rb" "20121016123335_create_landing_page_campaigns.rb" "20121016092359_remove_crypted_password_from_people.rb" "20121009153058_rename_encodings_table.rb" "20120907162839_create_affilate_window_products.rb" "20120828140111_add_password_fields_to_person.rb" "20120731084044_remove_outfit_tags_and_outfit_taggings.rb" "20120724092445_drop_tag_seo_images_and_tag_seo_datas.rb" "20120716082713_add_index_for_seo_name_in_brand_and_tag.rb" "20120712143433_add_seo_name_to_tag.rb" "20120712140221_add_seo_name_to_brand.rb" "20120627131044_recreate_zalando_products.rb" "20120530141955_remove_stylist_of_the_day_from_person.rb" "20120530133637_add_stylia_preference.rb" "20120529100216_add_error_page_message_to_cms.rb" "20120524163306_add_last_delayed_to_vendor_feed.rb" "20120423140144_add_marked_for_destruction_at_to_outfit.rb" "20120423093805_create_brand_logos.rb" "20120420152029_remove_facebook_connect_restrictions_from_preferences.rb" "20120326155535_add_user_agent_and_site_version_to_clickouts.rb" "20120316143159_add_cpc_import_fields_to_shop.rb" "20120302095822_add_updated_and_created_date_to_seo_image_and_tag_seo_image.rb" "20120228093902_add_facebook_connect_restrictions_to_preference.rb" "20120217123548_add_index_to_authorizations.rb" "20120215135010_add_facebook_header_to_preference.rb" "20120214144714_add_column_removed_at.rb" "20120210133801_add_has_award_to_seo_text.rb" "20120201153820_create_default_authorization.rb" "20120131104245_add_publish_at_and_unpublish_at_to_news.rb" "20120110125828_drop_table_fashion_tips.rb" "20111221142023_create_product_leaflet_deletions.rb" "20111219103100_create_authorizations.rb" "20111216122359_add_index_to_product_leaflets.rb" "20111209142120_add_index_to_content_module_image_uploads.rb" "20111130133438_add_description_to_content_module_image_uploads.rb" "20111128113003_drop_image_module_table_and_webcam_image_module_table.rb" "20111117121210_create_webcam_image_modules.rb" "20111110162223_add_disabled_flag_to_content_modules.rb" "20111109115108_add_mobile_thumbnail_to_content_module_image_uploads.rb" "20111109112138_add_image_module_role.rb" "20111108101809_create_content_module_image_uploads.rb" "20111103133651_create_image_modules.rb" "20111014104418_add_index_to_content_modules.rb" "20111007092340_create_zalando_products.rb" "20110929082300_add_module_roles.rb" "20110916100901_create_content_module_references.rb" "20110916100513_create_content_modules.rb" "20110915153538_add_delete_at_to_esprit.rb" "20110830120826_add_delete_at_column_to_vendor_product_tables.rb" "20110829141936_add_deletion_lag_to_vendor_feed.rb" "20110727161505_abingo_migration_1_0.rb" "20110715073515_add_flash_flag_to_outfits.rb" "20110704142512_drop_search_products.rb" "20110614100712_create_product_redirect_criteria.rb" "20110601133126_add_deleted_at_to_products.rb" "20110530134942_add_index_to_tags.rb" "20110530134656_add_index_to_emails.rb" "20110530134606_add_index_to_products_on_deleted.rb" "20110530133345_add_index_to_reports.rb" "20110526115234_add_index_to_stylefruits_products.rb" "20110526114615_add_index_to_zanox_products.rb" "20110526114605_add_index_to_tradedoubler_products.rb" "20110526114549_add_index_to_esprit_products.rb" "20110526114535_add_index_to_baur_products.rb" "20110526114520_add_index_to_affilinet_products.rb" "20110526112809_add_index_to_products.rb" "20110518121800_add_index_to_manufacturers.rb" "20110415212908_create_stylefruits_products.rb" "20110414142717_create_nonces.rb" "20110322093453_drop_surftipp_services.rb" "20110322093440_drop_surftipp_medias.rb" "20110322093431_drop_surftipps.rb" "20110308114951_drop_bitly_links.rb" "20110304155937_add_tagto_seotext.rb" "20110223141022_add_undeletable_flag_to_product_tag_category.rb" "20110223114043_add_category_to_tag.rb" "20110223110753_add_product_tag_categories.rb" "20110131155456_add_no_teaser_promo_to_question_categories.rb" "20110121120622_add_index_person_id_on_answers.rb" "20110121120615_add_index_person_id_on_questions.rb" "20110119090056_add_last_action_to_outfits.rb" "20110118151729_create_notifications.rb" "20110113165115_add_indexes2.rb" "20110111190813_fill_outfit_initial_availability.rb" "20110105155644_add_outfit_filtered_flag_to_brands.rb" "20110104162315_add_initial_availability_to_outfits.rb" "20101222143718_add_brand_id_index_to_seo_texts.rb" "20101206184251_add_indexes_for_answers_with_products_and_outfits.rb" "20101206183858_add_index_on_outfits_title_person_id_created_at.rb" "20101130162611_add_created_at_to_deletion.rb" "20101130122313_remove_futile_contest_fields.rb" "20101129180632_add_name_to_contest_pictures.rb" "20101018092004_add_nav_links_to_article.rb" "20101014173953_add_sti_to_article.rb" "20100928095137_create_product_showcases.rb" "20100927141148_add_date_fields_to_links.rb" "20100818150331_add_netiquette_cms_content_elements.rb" "20100817180129_add_title_to_injection_links.rb" "20100817125421_change_style_question_notification_defaults.rb" "20100813075516_change_outfit_price_range.rb" "20100806103047_rename_sender_deleted_at_and_receiver_deleted_at_and_create_both_new.rb" "20100803164131_add_taggable_type_index_to_taggings.rb" "20100803130613_create_injection_links.rb" "20100728153115_add_style_question_cms_page_for_popular_questions.rb" "20100726141655_add_stylequestion_roles.rb" "20100723134724_add_missing_cms_page.rb" "20100721101424_add_hash_to_people.rb" "20100721101309_add_closed_flag_to_question.rb" "20100720145621_create_cms_entries_for_style_question.rb" "20100719170347_add_reversal_quota_to_vendor_feed.rb" "20100714141721_set_stylequestion_notification_flags.rb" "20100709151451_change_default_notification_style_questions.rb" "20100708154928_remove_id_columns_from_reference_tables.rb" "20100708093157_add_new_message_counter_to_people.rb" "20100705124335_add_style_question_fields_to_person.rb" "20100702124702_create_esprit_products.rb" "20100702083008_add_field_name_to_link_table.rb" "20100701163908_add_position_and_no_follow_fields_to_link_table.rb" "20100701123625_change_column_type_of_links.rb" "20100630123402_add_role_to_question_category.rb" "20100628082522_add_parent_id_field_to_tag.rb" "20100625124427_create_tag_seo_image.rb" "20100625121406_create_tag_seo_data.rb" "20100622083317_change_default_people_outfit_rating_notifications.rb" "20100618164603_add_linkable_table.rb" "20100609162711_create_answers_outfits_and_answers_products_relation.rb" "20100609120812_create_outfits_question_relation.rb" "20100607133917_add_counter_cache_to_questions.rb" "20100604172331_create_vendor_product_filters.rb" "20100602130838_create_products_question_relation_table.rb" "20100525134919_create_certificate_icons.rb" "20100520144202_create_answers.rb" "20100520143232_create_question_categories.rb" "20100520142704_create_questions.rb" "20100518084338_create_baur_vendor_and_table.rb" "20100426152954_create_roles.rb" "20100421095424_create_cms_page_slot_cms_pages_relation.rb" "20100416105913_create_cms_page_content_element.rb" "20100416075719_create_cms_page_slots.rb" "20100415095118_create_cms_page.rb" "20100325135459_add_ip_and_user_agent_to_rating.rb" "20100324175022_add_rating_count_and_rating_value_to_shop.rb" "20100319101647_add_parent_id_to_brands.rb" "20100318105049_add_index_to_newsletter_subscriptions.rb" "20100315180156_add_sort_by_to_seo_texts.rb" "20100310105959_add_state_to_newsletter_subsriptions.rb" "20100310091742_create_verifiable_tokens.rb" "20100304153355_acts_as_awardable_award_media_migration.rb" "20100301160244_create_content_element_pages_and_content_elements.rb" "20100225142346_add_outfit_ranking_table.rb" "20100212185413_add_clickout_id_to_sales_datas.rb" "20100212163145_add_tracking_id_to_clickout.rb" "20100212113418_create_additional_rankings_for_contests.rb" "20100211165533_acts_as_awardable_migration.rb" "20100210140547_change_default_for_rating_noti_and_set_all_users_rating_noti_to_false.rb" "20100209110919_rename_seo_text_sales_field_part2.rb" "20100204180350_add_popularity_weight_to_shop.rb" "20100202172841_add_index_for_outfits_outfit_category_id.rb" "20100127105104_create_bitly_link_table.rb" "20100122173446_rename_seo_text_sales_field.rb" "20100121180941_add_sale_field_to_product_and_calculate_values.rb" "20100121180912_drop_sales_table.rb" "20100112102004_create_seo_image.rb" "20100112093953_extend_seo_text.rb" "20091215112145_add_index_to_outfit_media_parent_id.rb" "20091211172117_create_spam_alerts.rb" "20091201143401_associate_shops_with_vendor_feeds.rb" "20091126151337_add_shipping_to_shop.rb" "20091126144416_attach_shop_to_vendor_feed.rb" "20091126140946_rename_product_feed_column.rb" "20091123163120_create_shop_coupons.rb" "20091111111948_create_ootd_schedule_items.rb" "20091029153608_create_deletion.rb" "20091028133747_create_link_list_items.rb" "20091028133458_create_link_lists.rb" "20091027170254_add_missing_indexes_to_ratings.rb" "20091026141428_move_whole_name_to_givenname.rb" "20090929172606_add_commission_to_vendor_feed.rb" "20090911175914_move_image_source_from_media_to_article.rb" "20090911133950_add_teaser_id_to_article.rb" "20090910143849_create_newsletter_subscriptions.rb" "20090831145238_add_earnings_to_sales.rb" "20090818160211_create_indexes_for_popularity_component_creation.rb" "20090814171812_create_popularity_components.rb" "20090813132701_create_sales_datas.rb" "20090813123221_extract_product_ids_from_clickouts.rb" "20090805175519_change_mail_content_to_long_text.rb" "20090804134338_update_article_category_urls.rb" "20090728093643_change_affilinet_subid_pattern.rb" "20090721161324_create_article_element_medias.rb" "20090721155847_create_article_medias.rb" "20090721142402_create_article_elements.rb" "20090721142346_create_articles.rb" "20090721142323_create_article_categories.rb" "20090625153301_add_title_to_surftipps.rb" "20090625151519_create_surftipp_services.rb" "20090625151449_create_surftipp_medias.rb" "20090625151428_create_surftipps.rb" "20090625122938_create_news.rb" "20090608143343_add_meta_description_to_seo_texts.rb" "20090603101944_add_live_at_to_product.rb" "20090601105905_create_seo_texts.rb" "20090529154320_remove_id_column_from_sales.rb" "20090526172935_change_zanox_subid_pattern.rb" "20090521145736_add_status_and_last_success_to_vendor_feeds.rb" "20090415100921_add_updated_to_email_verifications.rb" "20090409125924_change_outfit_description_column.rb" "20090408085837_add_notification_options_to_person.rb" "20090408082312_enable_email_notifications.rb" "20090403204637_add_promoted_column_to_brands.rb" "20090401091242_add_thumbnail_to_shop_logos.rb" "20090331103009_redefine_client_id_index.rb" "20090330131221_create_fashion_tips.rb" "20090325085946_add_stylefacts_to_people.rb" "20090324125839_add_contest_id_to_outfit.rb" "20090324125804_add_columns_for_media_sti.rb" "20090324091350_add_outfit_id_to_contest.rb" "20090318151705_add_initial_outfit_id_field_to_person.rb" "20090317155159_change_column_in_contests.rb" "20090317135606_create_contest_services.rb" "20090317114506_create_contest_pictures.rb" "20090317084251_add_columns_to_contest.rb" "20090316145850_create_contests.rb" "20090306183508_introduce_a_generic_sale.rb" "20090303105342_create_clickouts.rb" "20090227140844_add_outfit_priceranges_new.rb" "20090225090019_add_index_to_outfit_medias.rb" "20090223135953_add_photo_flag_to_people.rb" "20090209143327_create_client_ids.rb" "20090206142516_add_pricerange_to_product.rb" "20090206115004_add_type_field_to_price_range.rb" "20090205113014_add_teasercopy_to_trends.rb" "20090204103304_add_deeplink_rewrite_rules_to_vendor.rb" "20090204103115_add_index_to_products_vendor_id_column.rb" "20090126135404_remove_deleted_products_from_search_products.rb" "20090121152057_sales_products_join_table.rb" "20090121151401_create_sales.rb" "20090120101314_add_outfit_unpromotable.rb" "20090113165120_create_import_summaries.rb" "20081210110415_create_cron_logs.rb" "20081209161635_add_source_to_trend_star_outfit_medias.rb" "20081209121002_add_invited_by_to_person.rb" "20081209112808_add_index_people_name.rb" "20081209084316_add_email.rb" "20081208171808_add_seo_nameto_product_category.rb" "20081204192904_add_missing_fields_for_star_outfit_medias.rb" "20081204180141_create_star_outfit_medias.rb" "20081204180056_create_star_outfits.rb" "20081204155937_add_seo_name_to_outfit_category.rb" "20081204093238_create_trends.rb" "20081201125643_fix_user_tos_accepted.rb" "20081201121018_add_stylist_of_the_day_to_people.rb" "20081201105040_add_tos_accepted_to_person.rb" "20081126181500_create_execution_times.rb" "20081125094232_add_created_add_to_search_product.rb" "20081121124047_create_sessions.rb" "20081119142824_create_feedback_categories.rb" "20081116175128_remove_unused_tables.rb" "20081113170245_create_ip_entries.rb" "20081110104805_fix_deeplink_fields.rb" "20081108181205_add_price_field_tooutfit.rb" "20081108143945_fix_product_currency_id_field.rb" "20081108141429_create_product_versions.rb" "20081107095622_change_index_for_affilinet.rb" "20081107095232_change_index_for_tradedoubler.rb" "20081106210716_change_zanox_index_columns.rb" "20081104112738_change_pricefield_type_for_products.rb" "20081103150941_add_deeplink_verified_to_product.rb" "20081103144833_create_category_images.rb" "20081103092025_remove_claims_from_people.rb" "20081103083202_create_reports.rb" "20081031105333_feed_id_for_products.rb" "20081030095603_extend_user_profile.rb" "20081028173912_outfit_media_with_attachment_fu.rb" "20081028112513_add_rotation_to_outfit_items.rb" "20081028094841_media_with_attachment_fu.rb" "20081027203553_create_product_leaflets.rb" "20081027175144_drop_favorite_outfits_people.rb" "20081027141818_modify_index_outfit_leaflets.rb" "20081027100309_create_outfit_leaflets.rb" "20081024214728_re_added_rateable.rb" "20081024095540_add_ratings.rb" "20081024091523_create_favorite_outfits_people.rb" "20081023175759_create_people_shops.rb" "20081023162900_rename_column_count_views.rb" "20081023155826_add_shop_id_to_product.rb" "20081023154209_create_views.rb" "20081023132101_remove_session_column.rb" "20081023131234_create_page_views.rb" "20081023104037_add_product_edited_by_user.rb" "20081023091612_create_shops.rb" "20081023091534_create_shop_logos.rb" "20081021155025_brands_people.rb" "20081021144544_colours_people.rb" "20081021072803_add_tops_flops_to_people.rb" "20081020155014_add_locked_field_to_product.rb" "20081020132220_add_privacy_to_people.rb" "20081017135228_create_conversations.rb" "20081017133033_create_comments.rb" "20081017082107_add_surname_givenname_to_people.rb" "20081016153456_drop_media_types.rb" "20081016133941_create_outfit_medias.rb" "20081016133321_add_product_id_index_to_outfit_items.rb" "20081016120422_acts_as_taggable_migration.rb" "20081016105107_add_product_id_index_to_medias.rb" "20081016101556_add_deleted_flag_to_search_product.rb" "20081016082004_create_communications.rb" "20081015185043_add_product_id_to_outfit_items.rb" "20081015183840_add_indexes.rb" "20081015165208_activities.rb" "20081015164927_change_media_type_to_media_type_id.rb" "20081015162541_create_media_types.rb" "20081014135718_create_photos.rb" "20081014132948_create_product_qualities.rb" "20081014114010_create_email_verifications.rb" "20081014091347_create_preferences.rb" "20081013162739_create_connections.rb" "20081013161125_add_people.rb" "20081010144007_create_search_products.rb" "20081010125518_add_join_table_product_categories.rb" "20081009170546_colours_products.rb" "20081009145734_create_currencies.rb" "20081009124901_create_price_ranges.rb" "20081009115740_create_brands.rb" "20081008120846_create_vendors.rb" "20081007164753_create_encodings.rb" "20081007164741_create_compressions.rb" "20081007155654_create_vendor_feeds.rb" "20081007133512_create_import_logs.rb" "20081006101328_create_zanox_products.rb" "20081006100105_create_tradedoubler_products.rb" "20081004141719_create_affilinet_vendors.rb" "20081004141410_create_affilinet_products.rb" "20080930153541_create_outfit_items.rb" "20080930153325_create_outfit_categories.rb" "20080930153222_create_outfits.rb" "20080930101833_create_product_categories.rb" "20080930095840_create_users.rb" "20080930095519_create_medias.rb" "20080930095328_create_manufacturers.rb" "20080930095218_create_colours.rb" "20080930095113_create_products.rb" "../" "./")
+
+ ("/Users/roman/git/sfweb/db/" (22278 12845 0 0) "structure.sql" "seeds.rb" "schema.rb" "migrate/" "cleanup.sql" "../" "./")
+
+ ("/Users/roman/git/ogrom/ogrom.protocols/src/ogrom/protocols/" (22712 7087 0 0) "v1.clj" "v1/" "reify.clj" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/assets/javascripts/" (22284 58796 0 0) "vendor/" "shared/" "sfplus.application.js" "mobile.application.js" "mobile/" "html5shiv.js" "error.js" "desktop/" "../" "./")
+
+ ("/Users/roman/git/sfweb/app/views/javascripts/" (22681 56005 0 0) "thickbox.js.erb" "mobile/" "boards.js.erb" "application.js.erb" "_rss_feeds.js" "_firebase.js.erb" "_debug.js.erb" "_common.js.erb" "_boards.js.erb" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/data/" (22681 54863 0 0) "page_test.clj" "../" "./")
+
+ ("/Users/roman/git/wiki/posts/howto/" (22672 24487 0 0) "debug-stale-karma-data.md" "create-postgres-db-on-rds.md" "contribute-to-the-wiki.md" "change-b2b-passwords.md" "backup-a-postgresql-database.md" "assume-different-git-identities.md" "appium_iOS_runSmokeTest.md" "add-a-shop-to-suq.md" "../" "./")
+
+ ("/Users/roman/git/wiki/posts/" (22672 24101 0 0) "todo.md" "practices/" "howto/" "../" "./")
+
+ ("/Users/roman/git/wiki/" (22672 24101 0 0) "posts/" ".git/" "../" "./")
+
+ ("/Users/roman/git/" (22672 24101 0 0) "zzz/" "yyyy/" "xxx/" "wiki/" "vintage/" "unleash/" "tradecraft/" "time-picker.zip" "testcraft/" "test/" "tease/" "suq.screening/" "suq.markup/" "suq.frontend/" "suq/" "splutter.zip" "splutter/" "specification/" "smb/" "shared/" "sfweb_old/" "sfweb/" "sf_screening_client/" "sf_plus_old/" "sf_plus/" "sf_config/" "sf_business_logic2/" "sf-config/" "schema/" "s.rb" "reagent-html/" "reagent/" "quo-vadis/" "presser/" "postgres.sh" "phalphalak_emacs_setup/" "parsepn/" "old_ogrom/" "ogrom/" "mockup/" "material-design-icons/" "local-repo/" "lasertag2/" "lasertag/" "kubin/" "karma/" "java.jdbc/" "iso2/" "iso/" "inquisition.poc/" "inquisition-examples/" "inquisition/" "heteronomy/" "hetereonomy2/" "hello-world/" "hamena.students/" "hamena.collages/" "google_currency/" "fruehstuecksfleisch/" "foo.rb" "etc-generator/" "etc/" "envoy/" "elasticsearch/" "elastic-copy/" "docker-suq-frontend-builder/" "docker-botify/" "demo/" "datepicker/" "config/" "clojure/" "cljs-sandbox/" "cljock/" "clj-http/" "claro/" "chef10-repo/" "chef-solr_server/" "calendar-view/" "botify/" "bender/" "basatan/" "bar/" "b2b/" "avenue/" "aufi-upload/" "abecadlo/" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/system/" (22663 17918 0 0) "graphql_test.clj" "db_test.clj" "config_test.clj" "../" "./")
+
+ ("/Users/roman/git/basatan/test/" (22663 17918 0 0) "logback-test.xml" "basatan/" "../" "./")
+
+ ("/Users/roman/git/basatan/test/basatan/resources/" (22658 11011 0 0) "graphql_schema_test.clj" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/assets/javascripts/desktop/" (22601 16811 0 0) "utils.js" "sf.js" "pagination.js" "outfit_detail.js" "jquery.toJson.js" "cookie_hints.js" "carousels.js" "board.js" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/" (22601 16811 0 0) "widgets/" "widget.clj" "views/" "utils.clj" "utils/" "strict_map.clj" "sf_widgets.clj" "session_store.clj" "server.clj" "seo_strings.clj" "ruby_interop.clj" "routes.clj" "route_matching.clj" "request.clj" "repo/" "reload_modified.clj" "quo_vadis_data_source.clj" "middlewares/" "mailer/" "log.clj" "jetty.clj" "i18n.clj" "helpers/" "handlers/" "event_reporter.clj" "etc.clj" "env.clj" "entities.clj" "entities/" "cache.clj" "assets.clj" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/" (22634 10273 0 0) "test/" "target/" "src-dev/" "src/" "resources/" "project.clj" "okc.txt" "maintenance/" "i18n.csv2" "i18n.csv" "foo.txt" "figwheel_server.log" "external-js/" "doc/" "dist/" "dev-resources/" "basatan/" "README.md" "LICENSE" "Dockerfile" "CHANGELOG.md" ".lein-repl-history" ".lein-failures" ".hgignore" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/roman/git/sf_plus/" (22634 10278 0 0) "vendor/" "test/" "target/" "src/" "spec/" "scripts/" "resources/" "project.clj" "nexus.crt" "dump.rdb" "dev-resources/" "config/" "checkouts/" "Rakefile" "README.md" "Gemfile.lock" "Gemfile" "Dockerfile" "Capfile" ".ruby-version" ".lein-repl-history" ".lein-env.example" ".gitmodules" ".gitignore" ".git/" ".dockerignore" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/markup/" (22601 34016 0 0) "product_list.cljs" "product_list.clj" "product_image.cljc" "product_deeplink.cljs" "price_filter.cljc" "mobile_filterbar.cljs" "leftnav.cljs" "lazy_image.cljs" "filters.cljc" "dropdowns.cljs" "clickout_form.cljc" "../" "./")
+
+ ("/Users/roman/git/basatan/resources/sql2/" (22646 18909 0 0) "offers.sql" "../" "./")
+
+ ("/Users/roman/git/basatan/src/" (22634 11847 0 0) "basatan/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/" (22602 41001 0 0) "test/" "templates/" "sass/" "public/" "private/" "logback.xml" "i18n.edn" "firebase-messaging-sw.js" "externs.js" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/sass/components/" (22590 55267 0 0) "_variables.scss" "_typography.scss" "_sorting.scss" "_slider.scss" "_sideNav.scss" "_products.scss" "_preloader.scss" "_paginator.scss" "_overlayer.scss" "_normalize.scss" "_navbar.scss" "_mixins.scss" "_icons.scss" "_grid.scss" "_global.scss" "_form.scss" "_filter.scss" "_dropdown.scss" "_color.scss" "_collapsible.scss" "_classicOverrides.scss" "_catNav.scss" "_buttons.scss" "_breadcrumb.scss" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/sass/" (22499 45711 0 0) "stylefruits.scss" "components/" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/views/" (22601 16811 0 0) "user.clj" "sparse_result.clj" "shared.clj" "shared/" "quicksearch.clj" "question.clj" "product.clj" "page_500.clj" "page_404.clj" "mobile/" "layouts.clj" "homefeed.clj" "google_tracking.clj" "filters/" "community.clj" "collage.clj" "collage/" "cms_desktop.clj" "boards.clj" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/assets/javascripts/shared/" (22601 16811 0 0) "xhr.js" "utils.js" "sf.js" "base64.js" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/handlers/" (22601 16811 0 0) "user.clj" "status.clj" "ratings.clj" "quicksearch.clj" "question.clj" "products.clj" "mobile/" "home.clj" "error_page.clj" "comments.clj" "collages.clj" "cms_page.clj" "brands.clj" "boards.clj" "board_entries.clj" "answer.clj" "../" "./")
+
+ ("/Users/roman/git/sf_plus/resources/" (22601 16811 0 0) "yesql/" "test_resources/" "templates/" "log4j.properties" "log4j-development.properties" "donotdelete" ".firebase-messaging-sw.js.swp" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/state/" (22600 14622 0 0) "sorting.cljc" "products.cljc" "navigation.cljc" "i18n.cljc" "filters.cljc" "facets.cljc" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/" (22600 14622 0 0) "utils.clj" "state.cljc" "state/" "server/" "schema.cljc" "ring.clj" "ring/" "io.cljc" "facet_resolver.cljc" "errors.cljc" "config.cljc" "common.cljc" "client.cljs" "client/" "../" "./")
+
+ ("/Users/roman/git/b2b/lib/maintenance/" (22543 26651 0 0) "vat_updater.rb" "shop_click_sale_data_clearer.rb" "session_cleaner.rb" "invoice_creator.rb" "auto_approver.rb" "../" "./")
+
+ ("/Users/roman/git/b2b/app/controllers/" (22543 21036 0 0) "welcome_controller.rb" "users_controller.rb" "shop_statistics_controller.rb" "settings_controller.rb" "sessions_controller.rb" "sales_csv_imports_controller.rb" "sales_controller.rb" "payment_methods_controller.rb" "legal_notice_controller.rb" "invoices_controller.rb" "hallmarks_controller.rb" "global_settings_controller.rb" "daily_statistics_controller.rb" "application_controller.rb" "api/" "../" "./")
+
+ ("/Users/roman/git/presser/src/presser/client/" (22544 40566 0 0) "core.cljs" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/middlewares/" (22578 47428 0 0) "uri_rewriting.clj" "tracking.clj" "subdomain_switch.clj" "responder.clj" "resource.clj" "rendering.clj" "quo_vadis.clj" "preferences.clj" "person.clj" "mobile_news.clj" "history.clj" "flash.clj" "envoy.clj" "csrf.clj" "app_info.clj" "api_link_hiding.clj" "../" "./")
+
+ ("/Users/roman/git/sfweb/app/controllers/" (22575 2020 0 0) "views_controller.rb" "videocontest_controller.rb" "suggestions_controller.rb" "style_questions_controller.rb" "share_controller.rb" "sessions_controller.rb" "searches_controller.rb" "reports_controller.rb" "redirects_controller.rb" "ratings_controller.rb" "quartett_controller.rb" "products_controller.rb" "product_bar_controller.rb" "people_controller.rb" "password_resets_controller.rb" "outfits_controller.rb" "outfit_categories_controller.rb" "omni_auth_controller.rb" "mobile/" "messages_controller.rb" "mag_controller.rb" "javascripts_controller.rb" "invite_friends_controller.rb" "interior/" "home_controller.rb" "forwards_controller.rb" "feedback_controller.rb" "facebook_controller.rb" "errors_controller.rb" "debug_controller.rb" "content_module_image_uploads_controller.rb" "connections_controller.rb" "community/" "comments_controller.rb" "combine_controller.rb" "collages_controller.rb" "cms_controller.rb" "awards_controller.rb" "application_controller.rb" "api_controller.rb" "api/" "admin/" "../" "./")
+
+ ("/Users/roman/git/sfweb/app/views/layouts/" (22581 36588 0 0) "two_columns_style_question.html.erb" "two_columns_no_borders.html.erb" "two_columns_community.html.erb" "two_columns.html.erb" "three_columns.html.erb" "thickbox_page.html.erb" "one_column_suggestion.html.erb" "one_column_register.html.erb" "one_column_combine_js.html.erb" "one_column_combine.html.erb" "one_column.html.erb" "newsletter_subscribe.html.erb" "mobile/" "error.html.erb" "clickout.html.erb" "basic.html.erb" "article_element_admin.html.erb" "administration_headless.html.erb" "administration.html.erb" "_error.html.erb" "_box_h4.html.erb" "_box.html.erb" "../" "./")
+
+ ("/Users/roman/git/sfweb/app/views/layouts/mobile/" (22581 36588 0 0) "application.html.erb" "../" "./")
+
+ ("/Users/roman/git/sfweb/config/" (22581 49328 0 0) "vanity.yml.example" "switches.yml.example" "switches.yml" "subdomain_fu.yml.example" "subdomain_fu.yml" "stylia.yml.example" "stylia.yml" "solr.yml.example" "solr.yml" "sf_plus.yml.example" "sf_plus.yml" "setup_config.sh" "seo_api.yml.example" "seo_api.yml" "routes.rb" "revision.yml.example" "revision.yml" "resque.yml.example" "resque.yml" "reporting/" "redis_cache.yml.example" "redis_cache.yml" "redis.yml.example" "redis.yml" "preinitializer.rb" "preferences.yml" "playstore_redirects.yml.example" "playstore_redirects.yml" "pinterest.yml.example" "pinterest.yml" "notification.rb" "merchant_center_categories.yml.example" "memcache.yml.example" "memcache.yml" "localisation.yml.example" "localisation.yml" "locale-repo/" "integration_test_data.yml" "initializers/" "id_rsa.pub" "id_rsa" "facebook.yml.example" "facebook.yml" "environments/" "environment.rb" "email.yml.example" "email.yml" "ecircle_new.yml" "ecircle.yml.example" "database.yml.example" "database.yml" "configfiles.yml" "clickatell.yml" "boot.rb" "aufi.yml.example" "aufi.yml" "asset_hosts.yml.example" "asset_hosts.yml" "apple_itunes_app.yml.example" "apple_itunes_app.yml" "app_links.yml.example" "app_links.yml" "api_shared_key.yml.example" "api_shared_key.yml" "amqp_etc.yml.example" "amqp_etc.yml" "amqp.yml.example" "amqp.yml" "amazon_s3.yml.example" "amazon_s3.yml" "actions.rb" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/mustache/" (22590 55267 0 0) "sorting.mustache" "product-list.mustache" "navigation-tree.mustache" "layout.mustache" "filters.mustache" "common.mustache" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/ring/" (22590 55267 0 0) "tracking.clj" "revision.clj" "not_found.clj" "logging.clj" "locale_redirect.clj" "exceptions.clj" "default_content_type.clj" "client_side_logging.clj" "basic_auth.clj" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/client/" (22599 59830 0 0) "overlay.cljs" "load.cljs" "initial_state.cljs" "history.cljs" "firebase.cljs" "errors.cljs" "../" "./")
+
+ ("/Users/roman/git/specification/data-model/" (22598 59270 0 0) "vintage-data-model.svg" "vintage-data-model.pu" "schema.graphql" "../" "./")
+
+ ("/Users/roman/git/vintage/src/" (22580 19928 0 0) "vintage/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/" (22598 32056 0 0) "markup/" "frontend.clj" "frontend/" "../" "./")
+
+ ("/Users/roman/git/specification/" (22590 48722 0 0) "data-model/" "README.md" ".git/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/src/suq/frontend/server/" (22590 55267 0 0) "render.clj" "page.clj" "initialize.clj" "httpd.clj" "assets.clj" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/maintenance/suq/frontend/" (22590 55503 0 0) "maintenance.clj" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/maintenance/suq/" (22370 42791 0 0) "frontend/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/maintenance/" (22370 42791 0 0) "suq/" "../" "./")
+
+ ("/Users/roman/git/vintage/resources/" (22590 44941 0 0) "schema.graphql" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/private/" (22238 61865 0 0) "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/public/assets/" (22406 15243 0 0) "js/" "img/" "font/" "css/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/public/" (22390 26303 0 0) "assets/" "../" "./")
+
+ ("/Users/roman/git/suq.frontend/resources/templates/" (22424 35451 0 0) "sorting.html" "product-list.html" "navigation-tree.html" "layout.html" "filters.html" "common.html" "../" "./")
+
+ ("/Users/roman/git/sfweb/" (22583 3049 0 0) "vendor/" "upgrade" "tokens.deprecated" "tmp/" "test/" "ssh_config" "sfweb.gemspec" "sfweb.apache2.conf" "secret" "script/" "rsa_key.pub" "rsa_key" "rooms.csv" "rack/" "public/" "prepare-db.sh" "outfittool/" "mod_passenger.so" "log/" "lib/" "interior_products.zip" "interior_products.csv" "interior_collages.csv" "dump.rdb" "doc/" "deploy.key" "deploy/" "db/" "config.ru.example" "config-helper/" "config/" "app/" "Rakefile" "README.md" "Guardfile" "Gemfile.lock" "Gemfile" "GemRakefile" "Dockerfile" "Capfile" ".ruby-version" ".gitmodules" ".gitignore" ".git/" ".dockerignore" ".autotest" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/clj/sf_plus/helpers/" (22578 47428 0 0) "validation.clj" "trend.clj" "title.clj" "strategic_links.clj" "sort.clj" "share.clj" "seo_text.clj" "seo_teaser.clj" "routes.clj" "rating.clj" "quicksearch.clj" "question.clj" "product.clj" "primary_tag.clj" "price.clj" "person.clj" "pagination.clj" "mobile.clj" "meta_tag.clj" "link_descriptors.clj" "injection_link.clj" "google_data_layer.clj" "footer.clj" "flash.clj" "filter.clj" "community_nav.clj" "commons.clj" "collage.clj" "category.clj" "breadcrumb.clj" "boards.clj" "../" "./")
+
+ ("/Users/roman/git/ogrom/ogrom.protocols/src/ogrom/" (22582 53910 0 0) "protocols/" "../" "./")
+
+ ("/Users/roman/git/ogrom/ogrom.protocols/src/" (22582 53910 0 0) "ogrom/" "../" "./")
+
+ ("/Users/roman/git/ogrom/ogrom.protocols/" (22582 53910 0 0) "test/" "src/" "project.clj" "README.md" ".gitignore" "../" "./")
+
+ ("/Users/roman/git/ogrom/" (22582 53910 0 0) "ogrom.sources/" "ogrom.run/" "ogrom.protocols/" "ogrom.mysql/" "ogrom/" "lein-in" "elastyczny/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/roman/git/sfweb/app/views/javascripts/mobile/" (22581 36588 0 0) "application.js.erb" "../" "./")
+
+ ("/Users/roman/git/vintage/" (22580 22943 0 0) "test/" "src/" "resources/" "project.clj" "doc/" "README.md" "LICENSE" "CHANGELOG.md" ".hgignore" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/roman/git/ogrom-run/" (22573 56101 0 0) "test2.log" "test.log" "test/" "target/" "src/" "resources.edn" "resources/" "project.clj" "nexus.crt" "log/" "dev-resources/" "deps" "configs/" "checkouts/" "README.md" "Dockerfile" ".lein-repl-history" ".lein-failures" ".gitignore" ".git/" ".ebextensions/" ".dockerignore" "../" "./")
+
+ ("/Users/roman/git/ogrom-run/test/ogrom/run/" (22573 56114 0 0) "wishlist_test.clj" "suq_test.clj" "report_content_test.clj" "quicksearch_test.clj" "questions_test.clj" "question_comments_test.clj" "promise_test.clj" "products_test.clj" "price_alerts_test.clj" "people_test.clj" "mobile_navigation_tree_test.clj" "middlewares/" "maintenance_mode_test.clj" "karma_test.clj" "home_test.clj" "follow_test.clj" "feed_test.clj" "devices_test.clj" "contests_test.clj" "collages_test.clj" "background_images_test.clj" "auth_tokens_test.clj" "../" "./")
+
+ ("/Users/roman/git/sf_plus/src/assets/javascripts/mobile/" (22284 58796 0 0) "utils.js" "sf.js" "../" "./")
+
+ ("/Users/roman/git/sf_plus/resources/templates/layouts/" (22574 54283 0 0) "two_cols.html" "page.html" "mobile.html" "lightweight.html" "base_layout.html" "base.html" "../" "./")
+
+ ("/Users/roman/git/quo-vadis/src/quo_vadis/" (22574 63421 0 0) "utils.clj" "routes.clj" "pattern_segments.clj" "handler.clj" "filters.clj" "core.clj" "../" "./")
+
+ ("/Users/roman/git/quo-vadis/" (22575 239 0 0) "test/" "target/" "src/" "resources/" "project.clj" "pom.xml" "nexus.crt" "README.md" ".lein-repl-history" ".lein-failures" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

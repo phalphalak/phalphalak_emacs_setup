@@ -1,5 +1,7 @@
+
 (setq backup-directory-alist `((".*" . ,"~/emacs-temp")))
 (setq auto-save-file-name-transforms `((".*" ,"~/emacs-temp" t)))
+(setq create-lockfiles nil)
 
 (setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
 (setq exec-path (append exec-path '("/usr/local/bin")))
@@ -9,7 +11,7 @@
 
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/"))
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (package-initialize)
 
 (unless (package-installed-p 'clojure-mode)
@@ -19,10 +21,17 @@
 (unless (package-installed-p 'cider)
   (package-install 'cider))
 
+(setq cider-turn-on-eldoc-mode t)
+
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
-;(setq cider-repl-pop-to-buffer-on-connect nil)
+(setq cider-repl-pop-to-buffer-on-connect nil)
 (setq cider-repl-result-prefix ";; => ")
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
+
+(setq cider-jack-in-dependencies-exclusions nil)
+(setq cider-inject-dependencies-at-jack-in nil)
+(setq cider-inject-jack-in-dependencies nil)
+(setq cider-lein-parameters "repl :headless :host ::")
 
 (add-to-list 'load-path "~/.emacs.d/addons/auto-complete")
 (add-to-list 'load-path "~/.emacs.d/addons/smooth-scroll")
